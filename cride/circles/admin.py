@@ -1,16 +1,15 @@
-''' User models admin. '''
+"""Circles admin."""
 
 # Django
 from django.contrib import admin
-from django.contrib.auth.admin import UserAdmin
 
-# Models
+# Model
 from cride.circles.models import Circle
 
 
 @admin.register(Circle)
 class CircleAdmin(admin.ModelAdmin):
-    ''' Circle admin '''
+    """Circle admin."""
 
     list_display = (
         'slug_name',

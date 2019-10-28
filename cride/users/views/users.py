@@ -14,7 +14,7 @@ from cride.users.permissions import IsAccountOwner
 
 # Serializers
 from cride.circles.serializers import CircleModelSerializer
-from cride.users.serializers.profiles import ProfileModelSerializer
+from cride.users.serializers import ProfileModelSerializer
 from cride.users.serializers import (
     AccountVerificationSerializer,
     UserLoginSerializer,
